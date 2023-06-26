@@ -4,7 +4,7 @@ const chips = [
   { name: 'plants', type: 'yay' },
   { name: 'rockhounding', type: 'yay' },
   { name: 'philosophy', type: 'yay' },
-  { name: 'jre podcast', type: 'yay' },
+  { name: 'podcasts', type: 'yay' },
   { name: 'cooking', type: 'yay' },
   { name: 'mountain biking', type: 'yay' },
   { name: 'playing ukulele', type: 'yay' },

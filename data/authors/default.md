@@ -1,8 +1,8 @@
 ---
 name: Darian Nocera
 avatar: /static/images/avatar.png
-occupation: Web Dev Hybrid Consultant Thing
-company: rootedvision group (RVG)
+occupation: Freelance Hybrid Web Dev Thing
+company: RVG
 email: darian@madebyrvg.com
 linkedin: https://www.linkedin.com/in/darian-nocera
 github: https://github.com/darnocer

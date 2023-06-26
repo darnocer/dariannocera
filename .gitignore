@@ -1,5 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# temp component ignore
+/components/Callout.js
+/layouts/TileLayout.js
+
+#obsidian
+data/snippets/obsidian
+
+
+# future pages
+data/projectData
+
+
 # example files
 info.md
 

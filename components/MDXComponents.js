@@ -7,10 +7,12 @@ import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 import ChipWrapper from './ChipWrapper'
+import Callout from './Callout'
 
 export const MDXComponents = {
   Image,
   TOCInline,
+  Callout,
   a: CustomLink,
   pre: Pre,
   ChipWrapper,

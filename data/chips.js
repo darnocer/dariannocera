@@ -18,6 +18,7 @@ const chips = [
   { name: 'fiction', type: 'nay' },
   { name: 'inefficiencies', type: 'nay' },
   { name: 'action movies', type: 'nay' },
+  { name: 'social media', type: 'nay' },
   { name: 'politics', type: 'nay' },
   { name: 'the news', type: 'nay' },
   { name: 'musicals', type: 'nay' },

@@ -55,6 +55,12 @@ module.exports = {
         extrabold: '800',
         black: '900',
       },
+
+      boxShadow: {
+        greenDark: '0 0 22px 8px rgba(5, 255, 0, .25)',
+        green: '0 0 22px 8px rgba(39, 161, 133, .25)',
+        yellow: '0 0 22px 8px rgba(236, 172, 69, .25)',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
@@ -67,6 +73,9 @@ module.exports = {
                 color: `${theme('colors.primary.600')} !important`,
               },
               code: { color: theme('colors.primary.400') },
+            },
+            p: {
+              fontSize: theme('fontSize.lg'),
             },
             h1: {
               fontWeight: '700',

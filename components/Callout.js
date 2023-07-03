@@ -1,27 +1,27 @@
-import Construction from '../public/static/images/icons/construction.svg'
+import { Star, Info, Construction } from 'lucide-react'
 
 const Callout = ({ type, text, title }) => {
   let icon = ''
-  let bgClass = ''
 
   switch (type) {
-    case 'Construction':
+    case 'contruction':
       icon = <Construction />
-      bgClass = 'bg-primary-400'
+      break
+    case 'info':
+      icon = <Info />
       break
     default:
-      icon = <Construction />
-      bgClass = 'primary'
+      icon = <Star />
       break
   }
 
   return (
-    <div className="m-4 rounded-md bg-primary-400 bg-opacity-30 p-3">
+    <div className="m-4 rounded-md border-1 border-primary-600/25 bg-primary-500 bg-opacity-30 p-3 shadow-lg">
       <div className="justify-left mb-2 flex flex-row items-center">
         <div className="mr-2">{icon}</div>
-        <p className="my-0 text-lg font-bold">{title}</p>
+        <p className="my-0 text-lg text-sm font-bold">{title}</p>
       </div>
-      <div>{text ? <p className="my-0"> {text}</p> : null}</div>
+      <div>{text ? <p className="my-0 text-sm"> {text}</p> : null}</div>
     </div>
   )
 }

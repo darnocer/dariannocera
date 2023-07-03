@@ -4,11 +4,7 @@
 
 ## 👋🏼 About
 
-I maintain a portfolio at [darian.digital](https://darian.digital) to showcase my professional value that generally evolves with the type of work I'm doing at the time.
-
-I've struggled for a bit with the idea that the whole point of a professional portfolio is to get hired, but I wanted a little corner of the internet where I can post unrelated thoughts and pretty much do whatever I want.
-
-It occurred to me there's nothing wrong with having two websites if they serve different purposes. And also that that's literally what a blog is. Thus, my personal website, creatively named [dariannocera.com](dariannocera.com), was born.
+I maintain a portfolio at [darian.digital](https://darian.digital) to showcase my professional value that generally evolves with the type of work I'm doing at the time. I wanted a little corner of the internet where I can post thoughts unrelated to my profession. It occurred to methere's nothing wrong with having two websites if they serve different purposes. Thus, [darian.blog](https://darian.blog) was born.
 
 ## ⚙️ Setup
 

@@ -8,6 +8,7 @@ import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 import ChipWrapper from './ChipWrapper'
 import Callout from './Callout'
+import Subnote from './Subnote'
 
 export const MDXComponents = {
   Image,
@@ -16,6 +17,7 @@ export const MDXComponents = {
   a: CustomLink,
   pre: Pre,
   ChipWrapper,
+  Subnote,
   BlogNewsletterForm: BlogNewsletterForm,
   wrapper: ({ components, layout, ...rest }) => {
     const Layout = require(`../layouts/${layout}`).default

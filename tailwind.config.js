@@ -29,6 +29,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Thiccboi', ...defaultTheme.fontFamily.sans],
+        italic: ['Edu', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {
@@ -43,6 +44,9 @@ module.exports = {
           500: '#f65e69',
         },
       },
+      borderWidth: {
+        1: '1px',
+      },
       fontWeight: {
         thin: '100',
         hairline: '100',
@@ -55,7 +59,6 @@ module.exports = {
         extrabold: '800',
         black: '900',
       },
-
       boxShadow: {
         greenDark: '0 0 22px 8px rgba(5, 255, 0, .25)',
         green: '0 0 22px 8px rgba(39, 161, 133, .25)',
@@ -67,12 +70,14 @@ module.exports = {
             color: theme('colors.gray.700'),
             a: {
               fontWeight: '600',
-              textTransform: 'uppercase !important',
               color: theme('colors.primary.500'),
               '&:hover': {
                 color: `${theme('colors.primary.600')} !important`,
               },
               code: { color: theme('colors.primary.400') },
+            },
+            em: {
+              fontFamily: theme('fontFamily.italic'),
             },
             p: {
               fontSize: theme('fontSize.lg'),
@@ -128,10 +133,15 @@ module.exports = {
             'ul li::marker': {
               backgroundColor: theme('colors.gray.500'),
             },
-            strong: { color: theme('colors.gray.600') },
+            strong: {
+              color: theme('colors.gray.600'),
+              borderBottomWidth: theme('borderWidth.4'),
+              borderBottomColor: theme('colors.primary.500'),
+            },
             blockquote: {
-              color: theme('colors.gray.900'),
-              borderLeftColor: theme('colors.gray.200'),
+              color: theme('colors.gray.800'),
+              borderLeftColor: theme('colors.primary.500'),
+              fontFamily: `${theme('fontFamily.italic')} !important`,
             },
           },
         },
@@ -139,7 +149,6 @@ module.exports = {
           css: {
             color: theme('colors.gray.300'),
             a: {
-              textTransform: 'uppercase !important',
               color: theme('colors.primary.500'),
               '&:hover': {
                 color: `${theme('colors.primary.400')} !important`,
@@ -180,7 +189,10 @@ module.exports = {
             'ul li::marker': {
               backgroundColor: theme('colors.gray.400'),
             },
-            strong: { color: theme('colors.gray.100') },
+            strong: {
+              color: theme('colors.gray.100'),
+              borderBottomColor: theme('colors.primary.500'),
+            },
             thead: {
               th: {
                 color: theme('colors.gray.100'),
@@ -193,7 +205,7 @@ module.exports = {
             },
             blockquote: {
               color: theme('colors.gray.100'),
-              borderLeftColor: theme('colors.gray.700'),
+              borderLeftColor: theme('colors.primary.700'),
             },
           },
         },

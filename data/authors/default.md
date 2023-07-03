@@ -18,7 +18,9 @@ I'm a gal living in Colorado that's on a mission to live her best life. Working 
 
 ## About This Blog
 
-I think hard about a lot of stuff and sometimes it makes my brain really hot, so I thought maybe I could use an outlet.. here it is! I do this for myself and hope to add value for others at the same time. I have interests in topics including personal growth, philosophy, the \~Universe\~, mental health, PKM <Subnote text="PKM (Personal Knowledge Management) is the process of collecting, storing, classifying, and retrieving information."/>, psychedelics, spirituality, technology, and history which will be reflected in my posts. If you don't like that stuff, then get outta here for your own sake.
+I think hard about a lot of stuff and sometimes it makes my brain really hot, so I thought maybe I could use an outlet.. here it is! I do this for myself and hope to add value for others at the same time. Btw you can click these thingies for commentary on my commentary <Subnote text="There ya go!"/>.
+
+I have interests in topics including personal growth, philosophy, the \~Universe\~, mental health, PKM <Subnote text="PKM (Personal Knowledge Management) is the process of collecting, storing, classifying, and retrieving information."/>, psychedelics, spirituality, technology, and history which will be reflected in my posts. If you don't like that stuff, then _get the heck outta here_ <Subnote text="For your own sake."/>.
 
 ## Current & Recent Reading
 
